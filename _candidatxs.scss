@@ -1,0 +1,88 @@
+.tituloC {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	margin: 50px;
+	color: black;
+}
+
+#candidatxs {
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	font-size: 35px;
+	font-style: bold;
+	width: 95%;
+	height: 200px;
+	border: 50px;
+	margin: 50px;
+	padding: 100px;
+}
+
+.gridC {
+  display: grid;
+  margin-left: 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
+
+@media only screen and (max-width: 320px) {
+	.gridC {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 10px 10px;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    ".";
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.tituloD {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	margin: 50px;
+	color: black;
+}
+
+form {
+	text-align: center;
+	background-color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	padding: 0px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-color: black;
+}
+
+.donar {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin: 50px;
+	color: black;
+}
+
+.boton {
+  background-color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  transition: height 2s;
+  width: 2s; 
+}
+
+.boton:hover {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 320px) {
+	.tituloD {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin: 20px;
+	color: black;
+}
+.donar {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	margin: 20px;
+	color: black;
+}
+form {
+	text-align: center;
+	background-color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	padding: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-color: black;
+}
+}

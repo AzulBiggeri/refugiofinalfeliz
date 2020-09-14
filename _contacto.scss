@@ -1,0 +1,29 @@
+.contacto {
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	color: black;
+	justify-self: center;
+	margin: 100px;
+}
+
+.redes {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color: black;
+}
+#mail {
+    margin-top: 15px;
+}
+#bottom {
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 320px){
+	.contacto {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	color: black;
+	justify-self: center;
+	margin: 20px;
+}
+}

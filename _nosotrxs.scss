@@ -1,0 +1,39 @@
+.parrafo {
+	font-family:'Amatic SC', cursive;
+	color: black;
+	font-size: 80px;
+	padding: 20px;
+	
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	color: black;
+}
+
+.fotos{
+	padding: 20px;
+} 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 100%;
+}
+
+#footer {
+	background-color: #39db64;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+}

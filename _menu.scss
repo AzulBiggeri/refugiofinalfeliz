@@ -1,0 +1,18 @@
+img {
+	transform: rotate(15deg);
+	transition: height 2s; width: 2s;
+}
+
+img:hover {
+    width: 85%;
+}
+
+.grid {
+	  margin: 50px;
+	  margin-top: 60px;
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+	  grid-template-rows: ;
+	  gap: 10px 13px;
+	  grid-template-areas: ". . .";
+}

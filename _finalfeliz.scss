@@ -1,0 +1,54 @@
+.finalFeliz {
+  margin: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3px 1px;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+ }
+
+.final {
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	color: black;
+	justify-self: center;
+	margin-top: 100px;
+}
+
+.FF {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 320px) {
+  .FF {
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.finalFeliz {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+ }
+
+.final {
+  font-family: 'Amatic SC', cursive;
+  font-size: 15px;
+  color: black;
+  justify-self: center;
+  margin-top: 5px;
+}
+}
